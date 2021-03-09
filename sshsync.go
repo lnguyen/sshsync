@@ -14,7 +14,7 @@ import (
 type Config struct {
 	Server struct {
 		User string `yaml:"user"`
-		Port int8 `yaml:"port"`
+		Port int32 `yaml:"port"`
 		Host string `yaml:"host"`
 	} `yaml:"server"`
 	Path struct {
